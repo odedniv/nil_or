@@ -27,7 +27,7 @@ But when it is nil:
     x = nil
     x.nil_or.to_s
     => nil
-    x.nil_r + 2
+    x.nil_or + 2
     => nil
     x.nil_or.shakalaka(1, 2) { does_nothing }
     => nil
