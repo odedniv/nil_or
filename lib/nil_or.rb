@@ -17,7 +17,7 @@ module NilOr
   end
 end
 
-class BasicObject
-  include ::NilOr
+class Object
+  include NilOr
 end
 
