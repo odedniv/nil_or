@@ -12,9 +12,12 @@ Or in your Gemfile:
 
 ## Usage
 
-When am I going to need it?
+When am I going to need it? Instead of writing:
 
     date_of_birth = params[:date_of_birth] ? params[:date_of_birth].to_date : nil
+
+Write:
+
     date_of_birth = params[:date_of_birth].nil_or.to_date
 
 When x is not nil:
