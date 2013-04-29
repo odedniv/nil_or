@@ -12,6 +12,11 @@ Or in your Gemfile:
 
 ## Usage
 
+When am I going to need it?
+
+    date_of_birth = params[:date_of_birth] ? params[:date_of_birth].to_date : nil
+    date_of_birth = params[:date_of_birth].nil_or.to_date
+
 When x is not nil:
 
     x = 5
@@ -31,4 +36,3 @@ But when it is nil:
     => nil
     x.nil_or.shakalaka(1, 2) { does_nothing }
     => nil
-
