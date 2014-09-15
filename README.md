@@ -1,6 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/nil_or.svg)](http://badge.fury.io/rb/nil_or)
-
-# nil_or
+# nil_or [![Gem Version](https://badge.fury.io/rb/nil_or.svg)](http://badge.fury.io/rb/nil_or)
 
 Delegates methods to the target unless nil.
 
