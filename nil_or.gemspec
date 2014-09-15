@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version     = "1.0.0"
   s.authors     = ["Oded Niv"]
   s.email       = ["oded.niv@gmail.com"]
-  s.homepage    = "https://github.com/toplex/nil_or"
+  s.homepage    = "https://github.com/odedniv/nil_or"
   s.summary     = %q{Execute Unless Nil}
   s.description = %q{Delegates methods to the object or returns nil.}
 
