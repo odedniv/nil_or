@@ -39,3 +39,11 @@ But when it is nil:
     => nil
     x.nil_or.shakalaka(1, 2) { does_nothing }
     => nil
+
+## Contributing
+
+1. Fork it ( https://github.com/odedniv/nil_or/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
