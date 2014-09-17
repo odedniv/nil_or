@@ -6,7 +6,9 @@ Delegates methods to the target unless nil.
 
 Add this line to your application's Gemfile:
 
-    gem 'nil_or'
+```ruby
+gem 'nil_or'
+```
 
 And then execute:
 
