@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nil_or (0.0.1)
+    nil_or (2.0.0)
 
 GEM
   remote: http://rubygems.org/

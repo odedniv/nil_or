@@ -1,23 +1,19 @@
 module NilOr
-  class NilOrDelegate < BasicObject
-    attr_accessor :delegation_target
-
-    def initialize(delegation_target)
-      @delegation_target = delegation_target
-    end
-
-    def method_missing(method, *attributes, &block)
-      @delegation_target.nil? ? nil :
-        @delegation_target.__send__(method, *attributes, &block)
+  class DSL < BasicObject
+    def method_missing(*)
+      nil
     end
   end
+  DSLObject = DSL.new
 
-  def nil_or
-    NilOrDelegate.new(self)
+  module Methods
+    def nil_or
+      nil? ? DSLObject : self
+    end
   end
 end
 
 class Object
-  include NilOr
+  include NilOr::Methods
 end
 
